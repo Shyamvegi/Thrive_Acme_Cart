@@ -1,0 +1,17 @@
+{
+    "name": "shyam/thrive_acme_cart",
+    "require-dev": {
+        "phpunit/phpunit": "*",
+        "phpstan/phpstan": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Acme\\": "src/"
+        }
+    },
+
+    "scripts": {
+        "test": "phpunit --bootstrap  vendor/autoload.php tests",
+        "analyze": "phpstan analyse src"
+    }
+}

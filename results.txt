@@ -1,0 +1,57 @@
+[00:00:00.000428500 / 00:00:00.000428500] [4194304 bytes] PHPUnit Started (PHPUnit 11.2.8 using PHP 8.2.12 (cli) on WINNT)
+[00:00:00.102906200 / 00:00:00.102477700] [4194304 bytes] Test Runner Configured
+[00:00:00.103908200 / 00:00:00.001002000] [4194304 bytes] Bootstrap Finished (vendor/autoload.php)
+[00:00:00.130328900 / 00:00:00.026420700] [6291456 bytes] Test Suite Loaded (6 tests)
+[00:00:00.151832500 / 00:00:00.021503600] [6291456 bytes] Event Facade Sealed
+[00:00:00.153349100 / 00:00:00.001516600] [6291456 bytes] Test Runner Started
+[00:00:00.154261400 / 00:00:00.000912300] [6291456 bytes] Test Suite Sorted
+[00:00:00.155633700 / 00:00:00.001372300] [6291456 bytes] Test Runner Execution Started (6 tests)
+[00:00:00.156278100 / 00:00:00.000644400] [6291456 bytes] Test Suite Started (CLI Arguments, 6 tests)
+[00:00:00.158138300 / 00:00:00.001860200] [6291456 bytes] Test Suite Started (BasketTest, 6 tests)
+[00:00:00.161626100 / 00:00:00.003487800] [6291456 bytes] Test Preparation Started (BasketTest::testAddProduct)
+[00:00:00.165503900 / 00:00:00.003877800] [6291456 bytes] Before Test Method Called (BasketTest::setUp)
+[00:00:00.166193200 / 00:00:00.000689300] [6291456 bytes] Before Test Method Finished:
+                                                          - BasketTest::setUp
+[00:00:00.166780100 / 00:00:00.000586900] [6291456 bytes] Test Prepared (BasketTest::testAddProduct)
+[00:00:00.170824300 / 00:00:00.004044200] [6291456 bytes] Test Passed (BasketTest::testAddProduct)
+[00:00:00.180495800 / 00:00:00.009671500] [6291456 bytes] Test Finished (BasketTest::testAddProduct)
+[00:00:00.181448900 / 00:00:00.000953100] [6291456 bytes] Test Preparation Started (BasketTest::testAddInvalidProduct)
+[00:00:00.182229600 / 00:00:00.000780700] [6291456 bytes] Before Test Method Called (BasketTest::setUp)
+[00:00:00.182759100 / 00:00:00.000529500] [6291456 bytes] Before Test Method Finished:
+                                                          - BasketTest::setUp
+[00:00:00.183435200 / 00:00:00.000676100] [6291456 bytes] Test Prepared (BasketTest::testAddInvalidProduct)
+[00:00:00.186333500 / 00:00:00.002898300] [8388608 bytes] Test Passed (BasketTest::testAddInvalidProduct)
+[00:00:00.186971300 / 00:00:00.000637800] [8388608 bytes] Test Finished (BasketTest::testAddInvalidProduct)
+[00:00:00.187557300 / 00:00:00.000586000] [8388608 bytes] Test Preparation Started (BasketTest::testBasketTotal)
+[00:00:00.188018800 / 00:00:00.000461500] [8388608 bytes] Before Test Method Called (BasketTest::setUp)
+[00:00:00.188544100 / 00:00:00.000525300] [8388608 bytes] Before Test Method Finished:
+                                                          - BasketTest::setUp
+[00:00:00.189309200 / 00:00:00.000765100] [8388608 bytes] Test Prepared (BasketTest::testBasketTotal)
+[00:00:00.189993300 / 00:00:00.000684100] [8388608 bytes] Test Passed (BasketTest::testBasketTotal)
+[00:00:00.190560100 / 00:00:00.000566800] [8388608 bytes] Test Finished (BasketTest::testBasketTotal)
+[00:00:00.191057200 / 00:00:00.000497100] [8388608 bytes] Test Preparation Started (BasketTest::testBasketTotalWithOffer)
+[00:00:00.191574400 / 00:00:00.000517200] [8388608 bytes] Before Test Method Called (BasketTest::setUp)
+[00:00:00.192128600 / 00:00:00.000554200] [8388608 bytes] Before Test Method Finished:
+                                                          - BasketTest::setUp
+[00:00:00.192717400 / 00:00:00.000588800] [8388608 bytes] Test Prepared (BasketTest::testBasketTotalWithOffer)
+[00:00:00.193500200 / 00:00:00.000782800] [8388608 bytes] Test Passed (BasketTest::testBasketTotalWithOffer)
+[00:00:00.194267800 / 00:00:00.000767600] [8388608 bytes] Test Finished (BasketTest::testBasketTotalWithOffer)
+[00:00:00.194701900 / 00:00:00.000434100] [8388608 bytes] Test Preparation Started (BasketTest::testBasketTotalWithMixedProducts)
+[00:00:00.195260700 / 00:00:00.000558800] [8388608 bytes] Before Test Method Called (BasketTest::setUp)
+[00:00:00.195729800 / 00:00:00.000469100] [8388608 bytes] Before Test Method Finished:
+                                                          - BasketTest::setUp
+[00:00:00.196374700 / 00:00:00.000644900] [8388608 bytes] Test Prepared (BasketTest::testBasketTotalWithMixedProducts)
+[00:00:00.196943200 / 00:00:00.000568500] [8388608 bytes] Test Passed (BasketTest::testBasketTotalWithMixedProducts)
+[00:00:00.197411400 / 00:00:00.000468200] [8388608 bytes] Test Finished (BasketTest::testBasketTotalWithMixedProducts)
+[00:00:00.197959100 / 00:00:00.000547700] [8388608 bytes] Test Preparation Started (BasketTest::testBasketTotalWithMultipleProducts)
+[00:00:00.198555900 / 00:00:00.000596800] [8388608 bytes] Before Test Method Called (BasketTest::setUp)
+[00:00:00.199050200 / 00:00:00.000494300] [8388608 bytes] Before Test Method Finished:
+                                                          - BasketTest::setUp
+[00:00:00.199530400 / 00:00:00.000480200] [8388608 bytes] Test Prepared (BasketTest::testBasketTotalWithMultipleProducts)
+[00:00:00.200057600 / 00:00:00.000527200] [8388608 bytes] Test Passed (BasketTest::testBasketTotalWithMultipleProducts)
+[00:00:00.200561400 / 00:00:00.000503800] [8388608 bytes] Test Finished (BasketTest::testBasketTotalWithMultipleProducts)
+[00:00:00.201214300 / 00:00:00.000652900] [8388608 bytes] Test Suite Finished (BasketTest, 6 tests)
+[00:00:00.201854100 / 00:00:00.000639800] [8388608 bytes] Test Suite Finished (CLI Arguments, 6 tests)
+[00:00:00.203032000 / 00:00:00.001177900] [8388608 bytes] Test Runner Execution Finished
+[00:00:00.203879400 / 00:00:00.000847400] [8388608 bytes] Test Runner Finished
+[00:00:00.208130100 / 00:00:00.004250700] [8388608 bytes] PHPUnit Finished (Shell Exit Code: 0)
